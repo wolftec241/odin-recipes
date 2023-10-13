@@ -1,0 +1,57 @@
+body{
+    background-color:#f3b50a; 
+    font-family: 'Brush Script MT', cursive;
+    height: fit-content;
+}
+
+header {
+    transform: translateY(-40px);
+    text-align: center;
+    color: whitesmoke;
+    position: fixed;
+    height: 64px;
+    width:128px;
+    line-height: 95px;
+    left:0px;
+    top:0px;
+    background-color: #ffbb00;
+    box-shadow: 0px 0px 15px black;
+    border-radius: 50%;
+    border: 5px solid rgb(168, 168, 4);
+    font-size: 20px;
+}
+
+
+.title{
+    text-align:center;
+    font-weight: bold;
+    text-decoration: underline;
+    height:40px;
+}
+
+
+img {
+    display: block;
+    margin:auto;
+    margin-bottom: 45px;
+    border-radius: 25%;
+    width:400px;
+}
+
+
+#contents {
+
+    display:block;
+    margin:auto;
+    padding: 16px;
+    margin-top: 32px;
+    width: max(70%,400px);
+    border: 4px solid olive;
+    text-align: left;
+    border-radius: 25px;
+    background-color: rgb(255, 167, 3);
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.479);
+    overflow: hidden;
+    font-size: 22px;
+    
+}
